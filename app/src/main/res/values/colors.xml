@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#252D40</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="white">#fff</color>
+    <color name="gray">#2d2d2d</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+</resources>

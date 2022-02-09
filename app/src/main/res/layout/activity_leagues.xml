@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:elevation="20dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="30dp"
+    android:background="#3D476C"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#3D476C"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="3dp"
+                    android:gravity="center"
+                    android:text="Leagues"
+                    android:textColor="#F28909"
+                    android:textStyle="bold"
+                    android:textSize="17dp"/>
+
+                <ImageView
+                    android:id="@+id/league_logo"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_broken_image"
+
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/type_championship"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="3dp"
+                    android:gravity="center"
+                    android:textColor="#F28909"
+                    android:text="Championship"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="3dp"
+                    android:gravity="center"
+                    android:text="Country"
+                    android:textStyle="bold"
+                    android:textColor="#F28909"
+                    android:textSize="17dp"/>
+
+                <ImageView
+                    android:id="@+id/country_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_broken_image"
+
+                    />
+                <TextView
+                    android:id="@+id/country_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="3dp"
+                    android:gravity="center"
+                    android:textColor="#F28909"
+                    android:text="Philippines"
+                    />
+                <TextView
+                    android:id="@+id/league_season"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="3dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F28909"
+                    android:text="2020"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
